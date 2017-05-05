@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
               <h1 [style.color]="applyClass ? 'orange' : 'blue'">Apply Color</h1>
             <img [src]="src" />
             <app-tutrials></app-tutrials>
+            <app-tutrial-part2></app-tutrial-part2>
             <input type="text" value="Angular" />`,
             styles: [ 
               `.myClass{
