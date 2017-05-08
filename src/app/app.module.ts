@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule , ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AlertModule } from 'ngx-bootstrap'; //bootstrap
 
@@ -10,6 +10,7 @@ import { TutrialPart2Component } from './tutrial-part2/tutrial-part2.component';
 import { ChildComponent } from './child/child.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { FormComponent } from './form/form.component';
+import { Form2Component } from './form2/form2.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +19,14 @@ import { FormComponent } from './form/form.component';
     TutrialPart2Component,
     ChildComponent,
     PipesComponent,
-    FormComponent
+    FormComponent,
+    Form2Component
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    ReactiveFormsModule,
     AlertModule.forRoot() //bootstrap
   ],
   providers: [],

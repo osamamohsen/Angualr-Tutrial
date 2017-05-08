@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-            <app-form></app-form>
+            <app-form2></app-form2>
               `,
   styles: [ 
     `.myClass{
